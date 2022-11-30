@@ -11,11 +11,13 @@ import About from './content/about';
 import Services from './content/services';
 import Apps from './content/apps';
 import Contact from './content/contact';
+import Privacy from './content/privacy';
 
 // styles and fonts
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import './App.css';
+
 
 function App() {
   return (
@@ -32,6 +34,7 @@ function App() {
             <Route path="/services" element={<Services />} />
             <Route path="/apps" element={<Apps />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/privacy" element={<Privacy />} />
           </Routes>
         </div>
 

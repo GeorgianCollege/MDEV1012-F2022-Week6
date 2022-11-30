@@ -26,12 +26,12 @@ function Contact()
                     placeholder="Enter your Email Address" required/>
                 </div>
                 <div className="mb-3">
-                <label htmlFor="message" className="form-label">Example textarea</label>
+                <label htmlFor="message" className="form-label">Your Message</label>
                 <textarea className="form-control" id="message" name="message" 
                 placeholder="enter your message here..."></textarea>
                 </div>
 
-                <button id="submitButton" type="submit" className="btn btn-primary">Submit</button>
+                <button id="submitButton" type="submit" className="btn btn-primary me-2">Submit</button>
                 <button id="resetButton" type="reset" className="btn btn-warning">Reset</button>
             </form>
             
